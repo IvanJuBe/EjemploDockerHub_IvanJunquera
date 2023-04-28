@@ -13,7 +13,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 //Aquí debes poner tu repositorio de dockerhub
-		sh 'docker build -t datoast/ejemplodockerhub . '
+		sh 'docker build -t IvanJuBe/https://github.com/IvanJuBe/EjemploDockerHub_IvanJunquera.git . '
             }
         }
         stage('DockerHUB Login') {
